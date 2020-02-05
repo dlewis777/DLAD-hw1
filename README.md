@@ -1,9 +1,9 @@
 # DLAD-hw1
 
 I found some starter code to create a basic hello world alexa skill (https://www.hackster.io/auctoris/simple-python-hello-world-with-alexa-4308e4). Most of their code is unused except the json builder to send the response.
-![]()
 
-The chatbot is extremely simple and just responds with what you said...with a twist. The text it returns is in alternating case, which gives it this mocking tone (as seen originally in the "mocking spongebob meme")
+The chatbot is extremely simple and just responds with what you said...with a twist. The text it returns is in alternating case, which gives it this mocking tone (as seen originally in the "mocking spongebob meme"). As a result, this breaks Alexa when she tries to speak.
+
 How to reproduce:
 1. Create new lambda function in AWS lambda.
 2. Create new Alexa skill.
@@ -16,3 +16,4 @@ How to reproduce:
 9. Add the ARN as default endpoint in Alexa endpoints.
 10. Done.
 
+![](meme.jpg)
